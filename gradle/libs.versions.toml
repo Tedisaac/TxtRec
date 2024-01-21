@@ -1,0 +1,29 @@
+[versions]
+agp = "8.3.0-alpha06"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+constraintlayout = "2.1.4"
+textrecognition = "16.0.0-beta6"
+camerax = "1.2.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+textrecognition = { group = "com.google.mlkit", name = "text-recognition", version.ref = "textrecognition"}
+camera-core = {group = "androidx.camera", name = "camera-core", version.ref = "camerax"}
+camera-camera2 = {group = "androidx.camera", name = "camera-camera2", version.ref = "camerax"}
+camera-lifecycle = {group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax"}
+camera-video = {group = "androidx.camera", name = "camera-video", version.ref = "camerax"}
+camera-view = {group = "androidx.camera", name = "camera-view", version.ref = "camerax"}
+camera-extensions = {group = "androidx.camera", name = "camera-extensions", version.ref = "camerax"}
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
