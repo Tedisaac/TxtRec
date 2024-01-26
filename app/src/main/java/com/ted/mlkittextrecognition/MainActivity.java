@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TextProcessingActivity.class);
         BitmapTransfer.bitmap = bitmap;
         startActivity(intent);
+        finish();
     }
 
     @NonNull

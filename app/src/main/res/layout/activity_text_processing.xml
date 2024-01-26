@@ -9,22 +9,51 @@
     <ImageView
         android:id="@+id/imgResult"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="300dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/txtBlock"
+        app:layout_constraintBottom_toTopOf="@+id/txtBlockExpiry"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/txtBlock"
+        android:id="@+id/txtBlockExpiry"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="40dp"
         android:padding="12dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imgResult"
         app:layout_constraintStart_toStartOf="@+id/imgResult"
         app:layout_constraintTop_toBottomOf="@+id/imgResult" />
+
+    <TextView
+        android:id="@+id/txtBlockID"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:padding="12dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBlockExpiry" />
+
+    <TextView
+        android:id="@+id/txtBlockValidLicence"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:padding="12dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBlockLicenceNo" />
+
+    <TextView
+        android:id="@+id/txtBlockLicenceNo"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:padding="12dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBlockID" />
 </androidx.constraintlayout.widget.ConstraintLayout>
